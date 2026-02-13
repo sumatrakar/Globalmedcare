@@ -1,0 +1,67 @@
+# GlobalMedCare – Requirements Document
+
+## 1. Functional Requirements
+
+- AI-based Symptom Checker
+- Risk Score Generation
+- Emergency One-Tap Button
+- Live Ambulance Tracking
+- Nearest Hospital Finder
+- Blood Availability Information
+- Verified Doctor Video Consultation
+- Digital Health Records (ABHA integration)
+- Medicine Availability Tracker
+- Mental Health Support
+- Government Scheme Mapping
+
+## 2. Non-Functional Requirements
+
+- Low-latency response (<3 seconds)
+- Secure Cloud Storage
+- Role-based Access Control
+- Regional Language Support
+- Scalable AWS Infrastructure
+- Data Privacy Compliance
+
+## 3. Target Users
+
+- Rural & Urban Citizens
+- Hospitals
+- Doctors
+- Government Health Agencies# GlobalMedCare – System Design
+
+## 1. Architecture Overview
+
+User App (Mobile/Web)
+        ↓
+API Gateway
+        ↓
+Backend Services (AWS Cloud)
+        ↓
+Database (Secure Health Records)
+        ↓
+AI Engine (Symptom Analysis & Risk Scoring)
+
+## 2. Core Modules
+
+- Emergency Management Module
+- AI Symptom Checker Module
+- Telemedicine Module
+- Hospital & Ambulance Integration Module
+- Medicine & Blood Availability Module
+- Digital Health Record System
+- Government Scheme Mapping Engine
+
+## 3. Security Design
+
+- End-to-End Encryption
+- OAuth 2.0 Authentication
+- Role-Based Access Control
+- Secure Cloud Storage (AWS Compatible)
+
+## 4. Scalability Plan
+
+- Microservices Architecture
+- Auto Scaling on Cloud
+- Load Balancer Integration
+- API-based External Integration
